@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test captcha</title>
+
+    </head>
+    <body style="margin: 0;">
+        <script type="module">
+            import init from './lib/index.js';
+            init().then(r => {
+                if (r) {
+                    alert('验证通过!')
+                }
+            });
+        </script>
+    </body>
+</html>
